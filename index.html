@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 오픈그래픽 -->
+  <meta property="og:url" content="https://j950130.github.io/portfolio/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="홍길동 웹포트폴리오">
+  <meta property="og:image" content="https://j950130.github.io/img_c_h_1.jpg">
+  <meta property="og:description" content="오늘만 살자는 웹퍼블리셔">
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:title" content="홍길동 웹포트폴리오"> 
+  <meta name="twitter:url" content="https://j950130.github.io/portfolio/">
+  <meta name="twitter:image" content="https://j950130.github.io/img_c_h_1.jpg"> 
+  <meta name="twitter:description" content="오늘만 살자는 웹퍼블리셔"/>
+
+  <!-- 문서/작성자 정보 -->
+  <meta name="Date" content="2020-10-15">
+  <meta name="Keywords" content="html, css3, javascript, jquery, portfolio, plug-in">
+  <meta name="Description" content="오늘만 살자는 웹퍼블리셔">
+  <meta name="Author" content="Mr. hong">
+  
+  <title>Document</title>
+
+  <!-- css reset -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <!-- 파비콘 -->
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <!-- 프레픽스프리(크로스브라우징) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- 폰트아섬 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+
+  <!-- 인덱스 외부스타일 CSS -->
+  <link rel="stylesheet" href="./css/index.css">
+
+
+
+</head>
+<body>
+  <div class="wrap">
+    <!-- header section -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <h1 class="main_logo">
+            Hong PortFolio
+          </h1>
+          <div class="btn_ham">
+            <span>라인</span>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><i class="fa fa-times fa-2x" aria-hidden="true"></i></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Skill</li>
+            <li>Portfolio</li>
+            <li>Call Me</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Swiper section -->
+    <section class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide_level01" id="intro">
+          <div class="container">
+            intro
+          </div>
+        </div>
+        <div class="swiper-slide slide_level01" id="about">
+          <div class="container">
+            about
+          </div>
+        </div>
+        <div class="swiper-slide slide_level01" id="skill">
+          <div class="container">
+            skill
+          </div>
+        </div>
+        <div class="swiper-slide slide_level01" id="portfolio">
+          <div class="container">
+            portfolio
+            <div class="swiper-container1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide slide_level02">
+                  <div class="port_content">
+                    <a href="https://pam7463/github.io/indigo/" target="_blank"><img src="./img/port01.jpg" alt="포트1"></a>
+                  </div>
+                </div>
+                <div class="swiper-slide slide_level02">
+                  <div class="port_content">
+                    <a href="#" target="_blank"><img src="./img/port02.jpg" alt="포트2"></a>
+                  </div>
+                </div>
+                <div class="swiper-slide slide_level02">작품3</div>
+                <div class="swiper-slide slide_level02">작품4</div>
+                <div class="swiper-slide slide_level02">작품5</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide_level01" id="call_me">
+          <div class="container">
+            call me
+          </div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <aside class="btn_top">
+      <i class="fa fa-arrow-up fa-5x" aria-hidden="true"></i>
+    </aside>
+
+    
+  </div>
+  <!-- 이미지 슬라이더 -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="./js/swiper.js"></script>
+
+  <!-- 기본 스크립트 -->
+  <script src="./js/default.js"></script>
+
+</body>
+</html>
+
