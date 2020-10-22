@@ -1,0 +1,15 @@
+@charset 'utf-8';
+
+/* PC 스타일 */
+
+@media(min-width:1024px){
+  .container{width:100%;}
+  header .container{height:100px;width:100%;display:flex;justify-content: space-between;align-items: center;}
+  .btn_ham{display:none;}
+  nav{width:80%;height:100px;position:static;background-color:transparent;}
+  nav>ul{text-align:right;padding:0;padding-top:16px;}
+  nav>ul>li{display:inline-block;margin-left:20px;color:#000000;}
+  nav>ul>li:first-child{display:none;}
+  nav>ul>li:hover,nav>ul>li.setcolor{color:teal;}
+  
+}
